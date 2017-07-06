@@ -11,6 +11,11 @@ body {
 
 }
 
+footer {
+    text-align: center;
+    
+}
+
 body,
 input,
 select,
@@ -149,7 +154,7 @@ button,
 input[type="submit"],
 button,
 .button {
-    background-color: transparent;
+    background-color: #E2DFB9;
     box-shadow: inset 0 0 0 2px #666666;
     color: #444444 !important;
 }
