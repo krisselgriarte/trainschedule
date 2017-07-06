@@ -10,7 +10,7 @@
 
 var database= firebase.database(); 
    
-// 3. Button for adding trains
+// Button for adding trains
 $("#addTrainBtn").on("click", function() {
 
     // Grabs user input
@@ -50,7 +50,7 @@ $("#addTrainBtn").on("click", function() {
 });
 
 
-// 4. Create Firebase event for adding trains to the database and a row in the html when a user adds an entry
+// Create Firebase event for adding trains to the database and a row in the html when a user adds an entry
 database.ref().on("child_added", function(childSnapshot, prevChildKey) {
 
     console.log(childSnapshot.val());
